@@ -7,7 +7,7 @@ from django.conf import settings
 from graphite.finders.remote import RemoteFinder
 from graphite.readers.remote import RemoteReader
 from graphite.logger import log
-from graphite.util import is_local_interface, logtime
+from graphite.util import logtime
 
 major,minor = sys.version_info[:2]
 py_version = sys.version.split()[0]

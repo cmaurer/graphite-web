@@ -12,7 +12,6 @@ import types
 import memcache
 import sys
 import traceback
-import mock
 from urllib3.response import HTTPResponse
 from django.test import override_settings
 from mock import patch
