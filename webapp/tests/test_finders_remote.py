@@ -194,6 +194,7 @@ class RemoteFinderTest(TestCase):
 
       query = FindQuery('a.b.c', startTime, endTime)
       result = finder.find_nodes(query)
+      print("\n>>finder.find_nodes({}): \nresult: \n{}\n".format(query, str(list(result))))
 
       self.assertIsInstance(result, types.GeneratorType)
 

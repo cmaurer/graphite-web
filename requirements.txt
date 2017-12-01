@@ -48,7 +48,7 @@ pyparsing
 cairocffi
 git+git://github.com/graphite-project/whisper.git#egg=whisper
 # Ceres is optional
-# git+git://github.com/graphite-project/ceres.git#egg=ceres
+git+git://github.com/graphite-project/ceres.git#egg=ceres
 whitenoise
 scandir
 urllib3
